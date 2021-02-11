@@ -18,7 +18,7 @@ body {
   background-color: darken($color: $bg, $amount: 65);
   color: #ebebeb;
 
-  flex: 1;
+  min-height: auto;
   padding: 1.2rem 5vw;
 
   display: flex;
@@ -38,7 +38,6 @@ body {
   background-color: $bg;
   color: #151515;
 
-  flex: 11;
   padding: 0 5vw;
 
   display: flex;

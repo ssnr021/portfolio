@@ -2,13 +2,13 @@
 
 body { display: flex; flex-direction: column; height: 100vh; font-family: "Open Sans", sans-serif; }
 
-.navbar { background-color: #345d62; color: #ebebeb; flex: 1; padding: 1.2rem 5vw; display: flex; justify-content: space-between; align-items: center; }
+.navbar { background-color: #345d62; color: #ebebeb; min-height: auto; padding: 1.2rem 5vw; display: flex; justify-content: space-between; align-items: center; }
 
 .navbar .logo { text-transform: capitalize; }
 
 .navbar .navlinks { list-style: none; }
 
-.main { background-color: #ecf4f5; color: #151515; flex: 11; padding: 0 5vw; display: flex; flex-direction: column; justify-content: center; align-items: center; }
+.main { background-color: #ecf4f5; color: #151515; padding: 0 5vw; display: flex; flex-direction: column; justify-content: center; align-items: center; }
 
 .main .card { background-color: #dfecee; padding: 1.4rem; margin: 1.5rem; min-height: 300px; min-width: 80vw; border-radius: 10px; box-shadow: 10px 10px 15px #cbe1e3, -10px -10px 15px #f9fcfc, inset 5px 5px 10px #d8e8ea, inset -5px -5px 10px #e5f0f1; }
 
