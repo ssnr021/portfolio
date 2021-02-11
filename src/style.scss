@@ -38,9 +38,9 @@ body {
   background-color: $bg;
   color: #151515;
 
-  min-height: 100%;
   padding: 0 5vw;
 
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -101,5 +101,6 @@ body {
 
   .main {
     flex: 10.5;
+    height: max-content;
   }
 }
