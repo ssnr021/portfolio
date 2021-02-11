@@ -1,1 +1,21 @@
-*{padding:0;margin:0;box-sizing:border-box}body{display:flex;flex-direction:column;height:100vh;font-family:"Open Sans",sans-serif}.navbar{padding:1rem 5vw;flex:1;background-color:#f0e8e8;display:flex;justify-content:space-between;align-items:center;box-shadow:10px 10x 15px red}.navbar .logo{text-transform:capitalize}.main{padding:1rem 5vw;flex:11;background-color:#f8f4f4;display:flex;flex-direction:column;justify-content:center;align-items:center;transform:scale()}.main h1,.main h2,.main h3,.main h4,.main h5,.main h6{line-height:3rem;font-weight:600}.main p,.main span{font-weight:300}.main a{text-decoration:none;border-bottom:0.1rem dotted;color:#724848;font-weight:400}.main a:hover{background-color:#eee4e4}.main p::before{content:"Oops!";font-weight:400}.card{background-color:#f0e8e8;padding:1.4rem;min-height:300px;border-radius:10px;box-shadow:10px 10px 15px #e4d5d5,-10px -10px 15px #fff,inset 5px 5px 10px #ece1e1,inset -5px -5px 10px #f4eeee}
+* { padding: 0; margin: 0; box-sizing: border-box; }
+
+body { display: flex; flex-direction: column; height: 100vh; font-family: "Open Sans", sans-serif; }
+
+.navbar { padding: 1rem 5vw; flex: 1; background-color: #f0e8e8; display: flex; justify-content: space-between; align-items: center; box-shadow: 10px 10x 15px red; }
+
+.navbar .logo { text-transform: capitalize; }
+
+.main { padding: 1rem 5vw; flex: 11; background-color: #f8f4f4; display: flex; flex-direction: column; justify-content: center; align-items: center; transform: scale(); }
+
+.main h1, .main h2, .main h3, .main h4, .main h5, .main h6 { line-height: 3rem; font-weight: 600; }
+
+.main p, .main span { font-weight: 300; }
+
+.main a { text-decoration: none; border-bottom: 0.1rem dotted; color: #724848; font-weight: 400; }
+
+.main a:hover { background-color: #eee4e4; }
+
+.main p::before { content: "Oops!"; font-weight: 400; }
+
+.card { background-color: #f0e8e8; padding: 1.4rem; min-height: 300px; border-radius: 10px; box-shadow: 10px 10px 15px #e4d5d5, -10px -10px 15px white, inset 5px 5px 10px #ece1e1, inset -5px -5px 10px #f4eeee; }
