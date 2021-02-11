@@ -59,7 +59,7 @@ body {
     font-weight: 400;
   }
   a:hover {
-    background-color: darken($color: $bg, $amount: 5);
+    background-color: darken($color: $bg, $amount: 6);
   }
 
   p::before {

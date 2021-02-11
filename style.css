@@ -14,7 +14,7 @@ body { display: flex; flex-direction: column; height: 100vh; font-family: "Open 
 
 .main a { text-decoration: none; border-bottom: 0.1rem dotted; color: #724848; font-weight: 400; }
 
-.main a:hover { background-color: #eee4e4; }
+.main a:hover { background-color: #ece1e1; }
 
 .main p::before { content: "Oops!"; font-weight: 400; }
 
