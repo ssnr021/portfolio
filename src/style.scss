@@ -1,0 +1,105 @@
+$font-family: "Open Sans", sans-serif;
+$bg: rgb(236, 244, 245);
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+
+  font-family: $font-family;
+}
+
+.navbar {
+  background-color: darken($color: $bg, $amount: 65);
+  color: #ebebeb;
+
+  flex: 1;
+  padding: 1.2rem 5vw;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .logo {
+    text-transform: capitalize;
+  }
+
+  .navlinks {
+    list-style: none;
+  }
+}
+
+.main {
+  background-color: $bg;
+  color: #151515;
+
+  flex: 11;
+  padding: 0 5vw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .card {
+    background-color: darken($color: $bg, $amount: 4);
+    padding: 1.4rem;
+    margin: 1.5rem;
+
+    min-height: 300px;
+    min-width: 80vw;
+
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px darken($color: $bg, $amount: 10),
+      -10px -10px 15px lighten($color: $bg, $amount: 4),
+      inset 5px 5px 10px darken($color: $bg, $amount: 6),
+      inset -5px -5px 10px darken($color: $bg, $amount: 2);
+    h2 {
+      line-height: 4rem;
+    }
+
+    a {
+      text-decoration: none;
+      border-bottom: 0.1rem dotted;
+      color: darken($color: $bg, $amount: 60);
+      font-weight: 400;
+    }
+    a:hover {
+      background-color: darken($color: $bg, $amount: 8);
+    }
+  }
+
+  .contact {
+    h2 {
+      text-transform: capitalize;
+    }
+
+    ul {
+      list-style: none;
+    }
+    li {
+      display: inline;
+    }
+    li::after {
+      content: " | ";
+    }
+  }
+}
+
+@media (max-width: 720px) {
+  .navbar {
+    flex: 1.5;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 0.9rem;
+  }
+
+  .main {
+    flex: 10.5;
+  }
+}
