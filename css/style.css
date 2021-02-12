@@ -10,13 +10,13 @@ body { display: flex; flex-direction: column; height: 100vh; font-family: "Open 
 
 .main { color: #151515; padding: 0 5vw; height: max-content; display: flex; flex-direction: column; justify-content: center; align-items: center; }
 
+.main a { text-decoration: none; border-bottom: 0.1rem dotted; color: #3c6d73; font-weight: 400; }
+
+.main a:hover { background-color: #d1e5e7; }
+
 .main .card { background-color: #dfecee; padding: 1.4rem; margin: 1.5rem; min-height: 300px; min-width: 80vw; border-radius: 10px; box-shadow: 10px 10px 15px #cbe1e3, -10px -10px 15px #f9fcfc, inset 5px 5px 10px #d8e8ea, inset -5px -5px 10px #e5f0f1; }
 
 .main .card h2 { line-height: 4rem; }
-
-.main .card a { text-decoration: none; border-bottom: 0.1rem dotted; color: #3c6d73; font-weight: 400; }
-
-.main .card a:hover { background-color: #d1e5e7; }
 
 .main .contact h2 { text-transform: capitalize; }
 

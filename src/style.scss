@@ -47,6 +47,16 @@ body {
   justify-content: center;
   align-items: center;
 
+  a {
+    text-decoration: none;
+    border-bottom: 0.1rem dotted;
+    color: darken($color: $bg, $amount: 60);
+    font-weight: 400;
+  }
+  a:hover {
+    background-color: darken($color: $bg, $amount: 8);
+  }
+
   .card {
     background-color: darken($color: $bg, $amount: 4);
     padding: 1.4rem;
@@ -62,16 +72,6 @@ body {
       inset -5px -5px 10px darken($color: $bg, $amount: 2);
     h2 {
       line-height: 4rem;
-    }
-
-    a {
-      text-decoration: none;
-      border-bottom: 0.1rem dotted;
-      color: darken($color: $bg, $amount: 60);
-      font-weight: 400;
-    }
-    a:hover {
-      background-color: darken($color: $bg, $amount: 8);
     }
   }
 
